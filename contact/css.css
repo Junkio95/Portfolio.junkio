@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+*{
+	margin: 0;
+	padding: 0;
+}
+body{cursor:url("../image/icons8-cursor-64-_1_.cur"),auto;
+	
+ }
+ 
+#head{
+	width: 100%;height: 150px;background-color:rgba(20,18,18,1.00);
+ 	font-family: "Hoefler Text";margin:0 auto;
+	border-bottom: 5px solid #F2EDED;
+}
+#head h1{
+	width: 15%;font-size: 30px;float: left;padding: 40px;color: darkgoldenrod;}
+.text-right{
+	width: 40%;float: left;height: 150px;}
+
+.text-right ul{
+/*	 list-style: none;*/
+	margin: 10px 30px;
+	 
+}
+.text-right ul li{
+	display: inline-block;
+/*	margin-right: 50px;*/
+}
+.text-right ul li a{
+	font-size: 20px;font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: darkgoldenrod;
+	float: left;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.text-right ul li a:hover{
+	color: white;
+}
+.card{
+	width: 35%;height: 100px;float:left;color:darkgoldenrod ;font-size: 12px; }
+ 
+.color{
+	margin-top: 30px;
+}
+.card ul{
+	list-style: none;
+	padding-top: 10px;
+	 }
+.card ul li{
+	width: 25px; height: 25px;border-radius:50%;float: left;border: 1.2px solid #F1EFEF;margin-right: 25px;}
+.card ul li a{
+	  color:rgba(0,0,0,0.00);
+	font-size: 20px;
+	font-weight: 900;
+	padding: 7px;
+}
+ .audio{float:right; }
+#banner1{
+	width: 100%;height: 90px;background-color:darkgoldenrod;margin:0 auto;text-align: center;color: black;font-weight:800;font-size:70px;padding: 10px;border-bottom: 5px solid #F2EDED;line-height: 90px;letter-spacing: 20px;
+    text-shadow: 3px 3px 3px white;
+	 }
+#contact{
+	width: 100%;height: 800px;;background-image: url("1pr.jpg");margin: 0 auto;color: white; 
+	 
+	 
+}
+.tact{
+	text-align: right;padding-right: 600px;
+	padding-top: 80px;
+}
+.vidu{
+	width: 500px;
+	padding: 5px;
+	margin: 20px;
+	border: 3px solid   rgba(194,144,40,1.00);
+}
+.vidu:hover{
+	border: 2px solid  rgba(236,247,15,1.00);
+}
+.vidu:focus{
+	border: 1px solid   rgba(179,128,11,1.00);
+}
+.ab:valid{
+	width: 500px;height: 200px;
+	padding: 5px;
+	border: 2px solid  rgba(194,144,40,1.00);
+	margin: 20px;
+}
+.ab:invalid{
+	border: 2px solid  rgba(115,114,114,1.00);
+}
+.su{
+	width: 500px;
+	 
+}
+ .btn{
+	padding: 5px 20px;
+	background-color: rgba(118,102,102,1.00);
+	border-radius: 80px;
+ 	cursor: pointer;
+	left: 500px;
+	color:black;
+	font-size: 15px;
+}
+.btn:hover{color: white;}
+.map{
+	margin-left: 450px;
+}
+#footer{
+	width: 100%px; background:#000000;color:darkgoldenrod;padding: 50px 80px;}
+ .hinhmangxh{
+			float: right;width: 60px;height: 50px;}
+ 
+ 
